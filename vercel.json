@@ -19,6 +19,14 @@
     {
       "source": "/groq/:match*",
       "destination": "https://api.groq.com/openai/:match*"
+    },
+    {
+      "source": "/agents/",
+      "destination": "https://chat-agents.lobehub.com/"
+    },
+    {
+      "source": "/plugins/",
+      "destination": "https://chat-plugins.lobehub.com/"
     }
   ]
 }
