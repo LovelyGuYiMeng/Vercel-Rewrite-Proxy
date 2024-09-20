@@ -22,11 +22,11 @@
     },
     {
       "source": "/agents",
-      "destination": "https://chat-agents.lobehub.com/"
+      "destination": "https://chat-agents.lobehub.com"
     },
     {
       "source": "/plugins",
-      "destination": "https://chat-plugins.lobehub.com/"
+      "destination": "https://chat-plugins.lobehub.com"
     }
   ]
 }
