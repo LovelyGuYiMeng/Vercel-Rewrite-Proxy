@@ -1,8 +1,24 @@
 {
   "rewrites": [
     {
-      "source": "/:match*",
+      "source": "/openai/:match*",
       "destination": "https://api.openai.com/:match*"
+    },
+    {
+      "source": "/claude/:match*",
+      "destination": "https://api.anthropic.com/:match*"
+    },
+    {
+      "source": "/gemini/:match*",
+      "destination": "https://generativelanguage.googleapis.com/:match*"
+    },
+    {
+      "source": "/pplx/v1/:match*",
+      "destination": "https://api.perplexity.ai/:match*"
+    },
+    {
+      "source": "/groq/:match*",
+      "destination": "https://api.groq.com/openai/:match*"
     }
   ]
 }
