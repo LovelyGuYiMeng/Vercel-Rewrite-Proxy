@@ -21,6 +21,10 @@
       "destination": "https://api.groq.com/openai/:match*"
     },
     {
+      "source": "/upstage/v1/:match*",
+      "destination": "https://api.upstage.ai/v1/solar/:match*"
+    },
+    {
       "source": "/agents",
       "destination": "https://chat-agents.lobehub.com"
     },
