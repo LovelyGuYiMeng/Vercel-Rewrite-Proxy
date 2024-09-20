@@ -21,11 +21,11 @@
       "destination": "https://api.groq.com/openai/:match*"
     },
     {
-      "source": "/agents/",
+      "source": "/agents",
       "destination": "https://chat-agents.lobehub.com/"
     },
     {
-      "source": "/plugins/",
+      "source": "/plugins",
       "destination": "https://chat-plugins.lobehub.com/"
     }
   ]
