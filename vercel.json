@@ -23,14 +23,6 @@
     {
       "source": "/upstage/v1/:match*",
       "destination": "https://api.upstage.ai/v1/solar/:match*"
-    },
-    {
-      "source": "/agents",
-      "destination": "https://chat-agents.lobehub.com"
-    },
-    {
-      "source": "/plugins",
-      "destination": "https://chat-plugins.lobehub.com"
     }
   ]
 }
