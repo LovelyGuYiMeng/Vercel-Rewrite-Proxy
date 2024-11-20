@@ -17,6 +17,10 @@
       "destination": "https://api.perplexity.ai/:match*"
     },
     {
+      "source": "/xai/:match*",
+      "destination": "https://api.x.ai/:match*"
+    },
+    {
       "source": "/groq/:match*",
       "destination": "https://api.groq.com/openai/:match*"
     },
