@@ -13,12 +13,12 @@
       "destination": "https://generativelanguage.googleapis.com/:match*"
     },
     {
-      "source": "/pplx/v1/:match*",
-      "destination": "https://api.perplexity.ai/:match*"
-    },
-    {
       "source": "/xai/:match*",
       "destination": "https://api.x.ai/:match*"
+    },
+    {
+      "source": "/pplx/v1/:match*",
+      "destination": "https://api.perplexity.ai/:match*"
     },
     {
       "source": "/groq/:match*",
