@@ -21,6 +21,10 @@
       "destination": "https://api.perplexity.ai/:match*"
     },
     {
+      "source": "/openrouter/:match*",
+      "destination": "https://openrouter.ai/api/:match*"
+    },
+    {
       "source": "/groq/:match*",
       "destination": "https://api.groq.com/openai/:match*"
     },
