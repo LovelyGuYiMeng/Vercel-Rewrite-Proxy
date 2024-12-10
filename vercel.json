@@ -17,16 +17,16 @@
       "destination": "https://api.x.ai/:match*"
     },
     {
+      "source": "/groq/:match*",
+      "destination": "https://api.groq.com/openai/:match*"
+    },
+    {
       "source": "/pplx/v1/:match*",
       "destination": "https://api.perplexity.ai/:match*"
     },
     {
       "source": "/openrouter/:match*",
       "destination": "https://openrouter.ai/api/:match*"
-    },
-    {
-      "source": "/groq/:match*",
-      "destination": "https://api.groq.com/openai/:match*"
     },
     {
       "source": "/upstage/v1/:match*",
