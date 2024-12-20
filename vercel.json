@@ -31,6 +31,10 @@
     {
       "source": "/upstage/v1/:match*",
       "destination": "https://api.upstage.ai/v1/solar/:match*"
+    },
+    {
+      "source": "/meowchan/*",
+      "destination": "https://api.meowchan.cn/:match*"
     }
   ]
 }
