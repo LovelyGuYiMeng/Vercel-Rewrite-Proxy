@@ -9,10 +9,6 @@
       "destination": "https://api.anthropic.com/:match*"
     },
     {
-      "source": "/gemini/:match*",
-      "destination": "https://generativelanguage.googleapis.com/:match*"
-    },
-    {
       "source": "/gemini/v1/:match*",
       "destination": "https://generativelanguage.googleapis.com/v1alpha/:match*"
     },
