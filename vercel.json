@@ -13,6 +13,10 @@
       "destination": "https://generativelanguage.googleapis.com/:match*"
     },
     {
+      "source": "/gemini/v1/:match*",
+      "destination": "https://generativelanguage.googleapis.com/v1alpha/:match*"
+    },
+    {
       "source": "/xai/:match*",
       "destination": "https://api.x.ai/:match*"
     },
